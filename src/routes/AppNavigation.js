@@ -10,7 +10,7 @@ const AppNavigation = () => {
 		<Navigator>
 			<Screen name="Login" component={Login} options={{ headerShown: false }} />
 			<Screen name="Signup" component={Signup} />
-			<Screen name="Home" component={Home} />
+			<Screen name="Home" component={Home} options={{ headerShown: false }} />
 		</Navigator>
 	)
 }
